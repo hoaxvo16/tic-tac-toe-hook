@@ -1,1 +1,1 @@
-website: https://tic-tac-toe-six-drab.vercel.app/
+website: https://compassionate-bohr-af848a.netlify.app/
