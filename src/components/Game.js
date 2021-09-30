@@ -84,21 +84,17 @@ export default function Game() {
    };
 
    const sortAscending = () => {
-      if (!isAscending) {
-         const temp = [...history];
-         temp.reverse();
-         setHistory(temp);
-         setIsAscending(true);
-      }
+      const temp = [...history];
+      temp.reverse();
+      setHistory(temp);
+      setIsAscending(true);
    };
 
    const sortDescending = () => {
-      if (isAscending) {
-         const temp = [...history];
-         temp.reverse();
-         setHistory(temp);
-         setIsAscending(false);
-      }
+      const temp = [...history];
+      temp.reverse();
+      setHistory(temp);
+      setIsAscending(false);
    };
 
    let idx = isAscending ? stepNumber : history.length - stepNumber - 1;
